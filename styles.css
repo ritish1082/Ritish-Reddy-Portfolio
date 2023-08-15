@@ -1,3 +1,4 @@
+/* HTML PAGE STYLES */
 
 html,
 body {
@@ -18,6 +19,11 @@ body {
   }
 }
 
+a {
+  color: #8c0000;
+  text-decoration: none;
+  cursor: pointer;
+}
 
 h1 {
     font-family: 'Open Sans';
@@ -28,12 +34,15 @@ h2 {
     font-family: 'Open Sans';
 }
 
-p {
+a,p {
   font-size: 1.25em; 
 }
 
-/* Mobile View */
+/* RESPONSIVE DESIGN */
 @media (max-width: 400px) {
+  body{
+    line-height: 1.35;
+  }
   h1 {
     /* 28px */
     font-size: 1.875em;
@@ -42,20 +51,37 @@ p {
     /* 20px */
     font-size: 1.375em;
   } 
-  p {
+  a,p {
+    font-size: 1.125em;
+  }
+
+}
+
+/* PUBLICATION STYLES */
+.publication{
+  margin: 1em 0em;
+}
+
+.publication *{
+  margin: 0px;
+}
+
+
+.publication #conference{
+  font-style: italic;
+  font-size: 1.125em;
+  @media (max-width: 400px) {
     font-size: 1em;
   }
 }
+/* .publication #abstract{
+  margin: 0.635em 0em;
+} */
+
+/* PROJECTS STYLES */
 
 
-a {
-    color: #8c0000;
-    text-decoration: none;
-    cursor: pointer;
-}
 
 
 
-.publication-title *{
-    margin: 0px;
-}
+/* BLOG STYLES */
