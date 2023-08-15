@@ -1,0 +1,61 @@
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    padding: 1.5em;
+    max-width: 720px;
+    font-family: "Lora", "Minion Pro", Palatino, Georgia, serif;
+    margin: auto;
+    line-height: 1.5;
+    text-align: justify;
+
+  & > * + * {
+    margin: 1em 0 0.25em;
+  }
+}
+
+
+h1 {
+    font-family: 'Open Sans';
+    font-size: 2em;
+}
+h2 {
+  font-size: 1.5em;
+    font-family: 'Open Sans';
+}
+
+p {
+  font-size: 1.25em; 
+}
+
+/* Mobile View */
+@media (max-width: 400px) {
+  h1 {
+    /* 28px */
+    font-size: 1.875em;
+  }
+  h2 {
+    /* 20px */
+    font-size: 1.375em;
+  } 
+  p {
+    font-size: 1em;
+  }
+}
+
+
+a {
+    color: #8c0000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+.publication-title *{
+    margin: 0px;
+}
