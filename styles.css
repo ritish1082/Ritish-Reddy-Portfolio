@@ -1,0 +1,103 @@
+/* HTML PAGE STYLES */
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    padding: 1.5em;
+    max-width: 720px;
+    font-family: "Lora", "Minion Pro", Palatino, Georgia, serif;
+    margin: auto;
+    line-height: 1.5;
+    text-align: justify;
+
+  & > * + * {
+    margin: 1em 0 0.25em;
+  }
+}
+
+a {
+  color: #8c0000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+h1 {
+    font-family: 'Open Sans';
+    font-size: 2em;
+}
+h2 {
+  font-size: 1.5em;
+    font-family: 'Open Sans';
+}
+
+a,p {
+  font-size: 1.25em; 
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 400px) {
+  body{
+    line-height: 1.35;
+  }
+  h1 {
+    /* 28px */
+    font-size: 1.875em;
+  }
+  h2 {
+    /* 20px */
+    font-size: 1.375em;
+  } 
+  a,p {
+    font-size: 1.125em;
+  }
+
+}
+
+/* PUBLICATION STYLES */
+.publication{
+  margin: 1em 0em;
+}
+
+.publication *{
+  margin: 0px;
+}
+
+
+.publication #conference{
+  font-style: italic;
+  font-size: 1.125em;
+  @media (max-width: 400px) {
+    font-size: 1em;
+  }
+}
+/* .publication #abstract{
+  margin: 0.635em 0em;
+} */
+
+/* PROJECTS STYLES */
+
+
+
+
+
+/* BLOG STYLES */
+
+.blog-cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap:20px;
+  
+}
+
+.card{
+   width: 200px;
+   height: 200px;
+   border: 1px solid black;
+}
+
