@@ -85,3 +85,19 @@ a,p {
 
 
 /* BLOG STYLES */
+
+.blog-cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap:20px;
+  
+}
+
+.card{
+   width: 200px;
+   height: 200px;
+   border: 1px solid black;
+}
+
