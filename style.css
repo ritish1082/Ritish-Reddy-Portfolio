@@ -50,13 +50,13 @@ h4{font-weight: 380;}
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    margin-bottom: 15px;
+    /* margin-bottom: 15px; */
 }
 
 .pub img{
     display: block;
     margin: auto;
-    width: 75%;
+    width: 100%;
 }
 
 .pub-details{
